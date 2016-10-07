@@ -8,7 +8,7 @@ public class B04 {
 		int money = input();
 		double result = tax(money);
 		
-		System.out.printf("당신의 소득세는 %.1f원입니다.", result);
+		System.out.printf("당신의 소득세는 %.0f원입니다.", result);
 	}
 	
 	public static int input(){
